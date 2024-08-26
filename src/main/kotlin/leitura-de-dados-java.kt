@@ -1,27 +1,27 @@
 import java.util.Scanner
 
-fun ler_int(){
-    var scanner = Scanner(System. `in`)
+fun lerInt(){
+    val scanner = Scanner(System. `in`)
     println("Digite número inteiro: ")
     val num = scanner.nextInt()
     println("Você digitou: ${num}")
 }
 
-fun ler_double(){
+fun lerDouble(){
     val scanner = Scanner(System. `in`)
     println("Digite número double: ")
     val num = scanner.nextDouble()
     println("Você digitou: ${num}")
 }
 
-fun ler_string(){
+fun lerString(){
     val scanner = Scanner(System. `in`)
     println("Digite nome: ")
     val num = scanner.next()
     println("Você digitou: ${num}")
 }
 
-fun ler_float(){
+fun lerFloat(){
     val scanner = Scanner(System. `in`)
     println("Digite número float: ")
     val num = scanner.nextFloat()
@@ -29,14 +29,14 @@ fun ler_float(){
 }
 
 fun main(){
-    ler_int()
-    ler_double()
-    ler_string()
-    ler_float()
-    ler_boolean()
+    lerInt()
+    lerDouble()
+    lerString()
+    lerFloat()
+    lerBoolean()
 }
 
-fun ler_boolean(){
+fun lerBoolean(){
     val scanner = Scanner(System. `in`)
     println("Digite valor boolean: ")
     val num = scanner.nextBoolean()
