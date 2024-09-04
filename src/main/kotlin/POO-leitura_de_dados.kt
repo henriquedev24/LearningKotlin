@@ -23,11 +23,12 @@ fun main(){
     println(pessoa.ano_nasc)
     println(pessoa.nome)
     println("Você tem ${pessoa.idade} anos")
-        if( d == "sim" || d == "SIM" || d == "Sim"){
-            pessoa.acordar(true)
-        }else if(d == "não" || d == "NÃO" || d == "Não"){
-            pessoa.acordar(false)
-        }
+//        if( d == "sim" || d == "SIM" || d == "Sim") pessoa.acordar(true) else if(d == "não" || d == "NÃO" || d == "Não") {
+//            pessoa.acordar(false)
+//        }
+
+
+
 }
 
 
